@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Franklin Gothic;
+    text-align: center;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.959);
+}
+h1{
+    color:#ffffff;
+
+    margin-top: 30px;
+    font-size: 40px;
+}
+label{
+    color:#ffffff;
+   
+}
+
+#input{
+    margin-top: 40px;
+}
+input{
+    color: #ffffff;
+}
+
+input#nome, #altura, #peso{
+    margin: 8px;
+    width: 400px;
+    height: 50px;
+    padding: 5px;
+    border-radius:8px ;
+    border: 1px solid #ffff;
+    background-color: rgba(0, 0, 0, 0.959); 
+} 
+input#altura{
+    margin: 8px;
+    width: 390px;
+    height: 50px;
+    padding: 5px;
+    border-radius:8px ;
+    border: 1px solid #ffff;
+    background-color: rgba(0, 0, 0, 0.959); 
+}
+#registrar{
+    width: 180px;
+    height: 40px;
+    background-color: #f8a100;
+    border: solid 1px #ffff;
+    border-radius: 5px;
+    color: #f1f1f1;
+    margin-top: 20px;
+    margin-left: 40px;
+  
+}
+#registrar:hover{
+    transition: 0.4s;
+    background-color: #ffffff;
+    color:#b3c4eb;
+}
+#table{
+    margin-left: 500px;
+    margin-top: 40px;
+}
+table, th, td{
+    color: #ffff;
+    border: 0.1vh solid #f1f1f1
+}
+th, td{
+    padding: 5px 10px;
+}
+
+th{
+    background-color: #f8a100;
+}
+
+#zerar{
+    width: 180px;
+    height: 40px;
+    margin-left:5px;
+    background-color: rgba(0, 0, 0, 0.959);;
+    border: solid 1px #ffff;
+    border-radius: 5px;
+    color: #f1f1f1;
+}
+#zerar:hover{
+    transition: 0.4s;
+    background-color: #ffffff;
+    color:rgba(0, 0, 0, 0.959);
+}
+
+
